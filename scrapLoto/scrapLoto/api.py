@@ -8,7 +8,7 @@ logger = get_logger()
 
 @dataclass
 class ApiHelper(object):
-    token:str = "Token 4c5c1417b29500b1c84b8eac99f965eb6ecf2733"
+    token: str = "Token 4c5c1417b29500b1c84b8eac99f965eb6ecf2733"
 
 
     def __post_request(self, api, data):

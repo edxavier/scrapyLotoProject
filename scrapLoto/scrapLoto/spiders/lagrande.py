@@ -27,7 +27,7 @@ class LagrandeSpider(scrapy.Spider):
         soup = BeautifulSoup(response.xpath("//div[@class='listingTable']").get(), 'html.parser')
         logger.info("--- Parse response ---")
         for d in soup.select('div>div.Rtable--6cols'):
-            item = LagrandeItem()
+            item = {}
             
             headers = d.select('div.Rtable-cell--head>span')
             item["date_string"] = f"{headers[0].text} | {headers[1].text}"
