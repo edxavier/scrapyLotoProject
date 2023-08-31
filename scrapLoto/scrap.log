@@ -1,0 +1,69 @@
+31-Aug-23 10:16:40 - loto_logger - DEBUG - --- Start requests ---
+31-Aug-23 10:16:40 - loto_logger - ERROR - <GET https://loto.com.ni/lagrande/>
+31-Aug-23 10:16:40 - loto_logger - ERROR - [Failure instance: Traceback: <class 'AttributeError'>: 'ScrapyPlaywrightDownloadHandler' object has no attribute 'browser_type'
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:735:errback
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:798:_startRunCallbacks
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:892:_runCallbacks
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:1792:gotResult
+--- <exception caught here> ---
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:1693:_inlineCallbacks
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\python\failure.py:518:throwExceptionIntoGenerator
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\scrapy\core\downloader\middleware.py:54:process_request
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:1065:adapt
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\scrapy_playwright\handler.py:265:_download_request
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\scrapy_playwright\handler.py:189:_create_page
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\scrapy_playwright\handler.py:159:_create_browser_context
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\scrapy_playwright\handler.py:140:_maybe_launch_browser
+]
+31-Aug-23 10:16:40 - loto_logger - ERROR - ---------ERROR------------
+31-Aug-23 13:36:49 - loto_logger - DEBUG - --- Start requests ---
+31-Aug-23 13:36:49 - loto_logger - DEBUG - --- Start requests ---
+31-Aug-23 13:36:49 - loto_logger - DEBUG - --- Start requests ---
+31-Aug-23 13:36:49 - loto_logger - ERROR - <GET https://loto.com.ni/lagrande/>
+31-Aug-23 13:36:49 - loto_logger - ERROR - <GET https://loto.com.ni/lagrande/>
+31-Aug-23 13:36:49 - loto_logger - ERROR - <GET https://loto.com.ni/lagrande/>
+31-Aug-23 13:36:49 - loto_logger - ERROR - [Failure instance: Traceback: <class 'AttributeError'>: 'ScrapyPlaywrightDownloadHandler' object has no attribute 'browser_type'
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:735:errback
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:798:_startRunCallbacks
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:892:_runCallbacks
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:1792:gotResult
+--- <exception caught here> ---
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:1693:_inlineCallbacks
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\python\failure.py:518:throwExceptionIntoGenerator
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\scrapy\core\downloader\middleware.py:54:process_request
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:1065:adapt
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\scrapy_playwright\handler.py:265:_download_request
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\scrapy_playwright\handler.py:189:_create_page
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\scrapy_playwright\handler.py:159:_create_browser_context
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\scrapy_playwright\handler.py:140:_maybe_launch_browser
+]
+31-Aug-23 13:36:49 - loto_logger - ERROR - [Failure instance: Traceback: <class 'AttributeError'>: 'ScrapyPlaywrightDownloadHandler' object has no attribute 'browser_type'
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:735:errback
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:798:_startRunCallbacks
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:892:_runCallbacks
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:1792:gotResult
+--- <exception caught here> ---
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:1693:_inlineCallbacks
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\python\failure.py:518:throwExceptionIntoGenerator
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\scrapy\core\downloader\middleware.py:54:process_request
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:1065:adapt
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\scrapy_playwright\handler.py:265:_download_request
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\scrapy_playwright\handler.py:189:_create_page
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\scrapy_playwright\handler.py:159:_create_browser_context
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\scrapy_playwright\handler.py:140:_maybe_launch_browser
+]
+31-Aug-23 13:36:49 - loto_logger - ERROR - [Failure instance: Traceback: <class 'AttributeError'>: 'ScrapyPlaywrightDownloadHandler' object has no attribute 'browser_type'
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:735:errback
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:798:_startRunCallbacks
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:892:_runCallbacks
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:1792:gotResult
+--- <exception caught here> ---
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:1693:_inlineCallbacks
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\python\failure.py:518:throwExceptionIntoGenerator
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\scrapy\core\downloader\middleware.py:54:process_request
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\twisted\internet\defer.py:1065:adapt
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\scrapy_playwright\handler.py:265:_download_request
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\scrapy_playwright\handler.py:189:_create_page
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\scrapy_playwright\handler.py:159:_create_browser_context
+C:\Users\edxr\PycharmProjects\scrapyLotoProject\venv\Lib\site-packages\scrapy_playwright\handler.py:140:_maybe_launch_browser
+]
