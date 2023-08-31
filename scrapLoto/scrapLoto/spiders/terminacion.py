@@ -23,7 +23,7 @@ class TerminacionSpider(scrapy.Spider):
             meta={'playwright': True},
             callback=self.parse, errback=self.errback_close_page)
 
-    def parse(self, response):
+    async def parse(self, response):
         soup = BeautifulSoup(response.xpath("//div[@class='listingTable']").get(), 'html.parser')
         logger.info("--- Parse response ---")
         for d in soup.select('div>div.Rtable--2cols'):
@@ -37,4 +37,8 @@ class TerminacionSpider(scrapy.Spider):
             spheres = d.select('div>div.esferas>span')
             item["winning_number"] = spheres[0].text
             self.api.save_terminacion(item)
-            yield item
+
+    async def errback_close_page(self, response):
+        page = response.request
+        logger.error(page)
+        logger.error(response)

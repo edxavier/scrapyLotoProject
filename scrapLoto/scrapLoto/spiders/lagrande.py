@@ -42,7 +42,6 @@ class LagrandeSpider(scrapy.Spider):
             item["number5"] = spheres[4].text
             item["gold_number"] = spheres[5].text
             self.api.save_lagrande(item)
-            yield item
           
     
     async def errback_close_page(self, response):

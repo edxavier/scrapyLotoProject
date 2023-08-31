@@ -15,11 +15,11 @@ class ApiHelper(object):
         header = {'Content-Type': 'application/json', 'Authorization': self.token}
         resp = requests.post(f'{BASE_URL}{api}', data=json.dumps(data), headers=header)
         if resp.status_code == 200:
-            logger.info(f"Data to {api} saved")
+            logger.info(f"---- Data {data} to {api} saved")
         elif resp.status_code == 208:
-            logger.error(f"Data {data} already exist")
+            logger.warning(f"---- Data {data} already exist")
         else:
-            logger.error(f"Fail saving data {resp.status_code}: {resp.text}")
+            logger.error(f"---- Fail saving data {resp.status_code}: {resp.text}")
 
     def save_lagrande(self, data):
         self.__post_request('/api/lagrande/', data)
